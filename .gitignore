@@ -1,4 +1,7 @@
-# Ignore config file to protect passwords
-# Ignore log files
-config/otp.ini
-logs/*
+# Ignore these files and directories
+public_html/analyticstracking.php
+otp/archive/*
+otp/backups/*
+otp/conf/otp.ini
+otp/logs/*
+otp/scripts/error_log

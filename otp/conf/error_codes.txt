@@ -1,0 +1,12 @@
+# Finding links for TED talks on TED website
+
+601 No TED link for video
+602 Too many links for video on TED search page
+
+# Checking credits on TED website
+
+701	No Hungarian translation on TED page although there is an approver on the task
+702 No translator on TED page
+703 No reviewer on TED page
+704 More than 2 credits on TED page
+705 Credits do not match on TED page with Amara

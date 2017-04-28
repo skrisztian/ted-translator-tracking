@@ -1,0 +1,53 @@
+; <?php exit(); __halt_compiler();?>
+; Settings for the OTP project
+
+
+; Values for general settings of the project
+[general]
+bulk_limit = 
+
+[dir]
+otp_dir = ""
+config_dir = "" 
+log_dir = ""
+script_dir = ""
+data_dir = ""
+www_dir = ""
+
+; Log files
+[log]
+scripts = ""
+db_maint = ""
+log_file_maint = ""
+data_update = ""
+site_auth = ""
+page_access = ""
+page_error = ""
+test = ""
+
+[db]
+host = ""
+user = ""
+password = ""
+db = ""
+
+[webdb]
+host = ""
+user = ""
+password = ""
+db = ""
+
+[amara-api]
+user = ""
+key = ""
+accept = ""
+
+[facebook-api]
+appId = ""
+secret = ""
+
+; Settings for backup scripts
+[backup-scripts]
+script_db_name = ""
+script_db_user = ""
+script_db_password = ""
