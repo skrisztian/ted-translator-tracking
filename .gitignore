@@ -1,0 +1,4 @@
+# Ignore config file to protect passwords
+# Ignore log files
+config/otp.ini
+logs/*

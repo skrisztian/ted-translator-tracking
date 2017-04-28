@@ -1,0 +1,43 @@
+; <?php exit(); __halt_compiler();?>
+; Settings for the OTP project
+; This file will be looked up in:
+; 1. base_dir -> config_dir
+; 2. 
+
+; Values for general settings of the project
+[general]
+
+[dir]
+otp_dir = 
+config_dir = 
+log_dir = 
+job_dir = 
+data_dir = 
+www_dir = "
+
+; Log files
+[log]
+scripts = "scripts.log"
+user_update = "user_update.log"
+db_maint = "db_maint.log"
+log_file_maint = "log_file_maint.log"
+data_update = "data_update.log"
+test = "test.log"
+
+[db]
+host = 
+user = 
+password = 
+db = 
+
+
+[amara-api]
+user = "X-api-username: "
+key = "X-apikey: "
+accept = "Accept: application/json"
+
+[facebook-api]
+appId = 
+secret = 
+
+[google-api]
